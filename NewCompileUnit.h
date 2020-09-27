@@ -5,4 +5,4 @@ public:
     inline int getValue(){ return m_value; }
 private:
     int m_value;
-}
+};
