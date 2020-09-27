@@ -7,8 +7,8 @@ stages:
 
 jobs:
   include:
-    stage: Build    
-    script: g++ -o GitLearning.out test1.cpp NewCompileUnit.cpp
+    - stage: Build
+      script: g++ -o GitLearning.out test1.cpp NewCompileUnit.cpp
 
-    stage: Test
-    script: a.out
+    - stage: Test
+      script: a.out
