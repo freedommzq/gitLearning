@@ -11,4 +11,4 @@ jobs:
       script: g++ -o GitLearning.out test1.cpp NewCompileUnit.cpp
 
     - stage: Test
-      script: a.out
+      script: GitLearning.out
