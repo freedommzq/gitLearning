@@ -1,6 +1,10 @@
 language: cpp
 compiler: gcc
 
+stages:
+  - Build
+  - Test
+
 jobs:
   include:
     stage: Build    
