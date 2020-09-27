@@ -1,4 +1,5 @@
 #include <iostream>
+#include "NewCompileUnit.h"
 
 int main(){
     std::cout << "This is a git test file!" << std::endl;
